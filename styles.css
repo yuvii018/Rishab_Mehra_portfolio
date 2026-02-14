@@ -81,3 +81,15 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helv
   
   border: 2px solid rgba(14, 147, 209, 0.8);
 }
+
+.btn.primary:hover {
+  background: var(--accent-2);
+  color: #0b1220;
+  box-shadow: 0 0 15px rgba(237, 71, 111, 0.6);
+}
+.btn.outline:hover {
+  background: var(--accent-2);
+  color: #0b1220;
+  box-shadow: 0 0 15px rgba(237, 71, 111, 0.6);
+}
+
