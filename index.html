@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Rishab Mehra — Professeur de français</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<h1 class="logo">Rishab Mehra</h1>
+				<nav class="nav">
+					<a href="#home">Home</a>
+					<a href="#lessons">Lessons</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="home" class="hero">
+				<div class="container">
+					<h2>Learn French with confidence</h2>
+					<p>Personalized lessons for all levels — conversation, grammar, exam preparation.</p>
+					<div class="hero-cta">
+						<a class="btn primary" href="#contact">Book a session</a>
+						<a class="btn outline" href="#lessons">View lessons</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="container about">
+				<h3>À propos de Pierre</h3>
+				<div class="about-grid">
+					<aside class="profile">
+						<img class="pfp" src="rishu.jpg" alt="Photo de Rishab Mehra" />
+						<p class="profile-name">Rishab Mehra</p>
+						<p class="certifications">DELF A1 · DELF A2 · DELF B1 · DELF B2</p>
+					</aside>
+
+					<div class="about-content">
+						<p>Bonjour — je m'appelle Rishab Mehra. Je suis professeur de français natif avec 8 ans d'expérience en enseignement aux adultes et aux enfants. J'offre des cours particuliers en ligne et en présentiel, adaptés à vos objectifs.</p>
+						<ul class="skills">
+							<li class="li">Cours individuels et en groupe</li>
+							<li class="li">Préparation DELF/DALF</li>
+							<li class="li">Conversation et prononciation</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section id="lessons" class="container lessons">
+				<h3>Mes cours</h3>
+				<div class="grid">
+					<div class="card">
+						<h4>Cours de conversation</h4>
+						<p>Améliorez votre aisance orale avec des sessions pratiques.</p>
+					</div>
+					<div class="card">
+						<h4>Grammaire & écriture</h4>
+						<p>Renforcez vos bases et apprenez à écrire correctement.</p>
+					</div>
+					<div class="card">
+						<h4>Préparation aux examens</h4>
+						<p>Coaching ciblé pour le DELF, DALF et autres certifications.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="container contact">
+				<h3>Contact</h3>
+				<p>Contactez-moi pour une évaluation gratuite de 15 minutes.</p>
+
+				<div class="contact-row">
+					<div class="contact-actions">
+						<a class="btn insta" href="https://instagram.com/rishab.mehra.1130" target="_blank" rel="noopener">Instagram</a>
+						<a class="btn phone" href="tel:+919873861146">Call: +91 98738 61146</a>
+						<div class="address">
+							<strong>Address</strong>
+							<p>T-652/BA, Baljit Nagar,
+                Patel Nagar, New Delhi - 110008
+              </p>
+						</div>
+					</div>
+
+					<form id="contactForm" class="contact-form">
+						<label>
+							Nom
+							<input type="text" name="name" required />
+						</label>
+						<label>
+							Email
+							<input type="email" name="email" required />
+						</label>
+						<label>
+							Message
+							<textarea name="message" rows="4" required></textarea>
+						</label>
+						<button class="btn primary" type="submit">Envoyer</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<small>© <span id="year"></span> Rishab Mehra — Professeur de français</small>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
+
