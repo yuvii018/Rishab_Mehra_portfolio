@@ -62,6 +62,16 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helv
   .about-grid{flex-direction:column}
   .profile{width:100%}
   .profile img{height:auto}
+  .container{padding:16px}
+  .hero{padding:32px 0}
+  .hero-cta{flex-direction:column;gap:10px}
+  .hero-cta .btn{width:100%;max-width:420px}
+  .contact-actions{width:100%}
+  .contact-actions .btn{width:100%}
+  .contact-form{width:100%;order:2}
+  .contact-actions{order:1}
+  .profile img{max-width:220px;margin:0 auto}
+  .card{padding:14px}
 }
 .li{
   box-shadow: 0 0 15px rgba(248, 18, 10, 0.6);
